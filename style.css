@@ -1,0 +1,31 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation: leftToRight 10s infinite;
+}
+
+@keyframes leftToRight {
+    0% {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    25% {
+        margin-left: 88%;
+        margin-top: 0;
+        background-color: green;
+    }
+
+    50% {
+        margin-left: 88%;
+        margin-top: 39%;
+        background-color: blue;
+    }
+
+    75% {
+        margin-left: 0;
+        margin-top: 39%;
+    }
+}
